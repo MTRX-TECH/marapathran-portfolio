@@ -89,7 +89,7 @@ export default function Projects() {
 
                   {/* Actions */}
                   <div className="flex items-center gap-6">
-                    <a href={project.githubUrl || "#"} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] uppercase text-white hover:text-[var(--color-brand-red)] transition-colors group/link">
+                    <a href={project.github || "#"} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] uppercase text-white hover:text-[var(--color-brand-red)] transition-colors group/link">
                       View Source
                       <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
                     </a>
