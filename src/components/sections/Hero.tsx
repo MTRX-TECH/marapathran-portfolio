@@ -54,7 +54,7 @@ export default function Hero() {
               className="mb-12 max-w-lg"
             >
               <p className="text-sm md:text-base text-[var(--color-brand-silver)] font-light leading-relaxed">
-                Computer Science student and builder. Founder & CEO of <span className="text-white font-bold">MTRX TECH</span>, focused on engineering real-world software from the ground up — from live fleet telemetry and campus systems to next-gen developer tools.
+                Systems architect, software engineer, and Founder & CEO of <span className="text-white font-bold">MTRX TECH</span>. Focused on engineering real-world software from the ground up — from live fleet telemetry and campus systems to next-gen developer tools.
               </p>
             </motion.div>
 

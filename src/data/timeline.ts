@@ -11,8 +11,8 @@ export const timelineData = [
   },
   {
     period: "2025 – 2029",
-    title: "Engineering at Ramco IT",
-    description: "Pursuing B.E. Computer Science at Ramco Institute of Technology. Strengthening core foundations in algorithms, databases, operating systems, and networks.",
+    title: "Systems & Engineering Mastery",
+    description: "Deepening technical mastery across core computer science — advanced algorithms, distributed databases, operating systems, and low-latency network protocols.",
   },
   {
     period: "BUILDING",

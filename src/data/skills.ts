@@ -15,10 +15,10 @@ export const skillCategories = {
     { name: "Flutter", level: "Currently Learning" },
   ],
   next: [
-    { name: "TypeScript", level: "Not Yet Started" },
-    { name: "PostgreSQL", level: "Not Yet Started" },
-    { name: "AI/ML", level: "Not Yet Started" },
-    { name: "IoT / ESP32", level: "Not Yet Started" },
-    { name: "Cloud / DevOps", level: "Not Yet Started" },
+    { name: "TypeScript", level: "Exploring" },
+    { name: "PostgreSQL", level: "Exploring" },
+    { name: "AI/ML", level: "Exploring" },
+    { name: "IoT / ESP32", level: "Exploring" },
+    { name: "Cloud / DevOps", level: "Exploring" },
   ],
 };

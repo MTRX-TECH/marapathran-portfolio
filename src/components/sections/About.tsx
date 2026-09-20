@@ -38,7 +38,7 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <p className="text-white font-medium">
-                "Hey, I'm MARAPATHRAN — a Computer Science student, founder, and systems builder."
+                "Hey, I'm MARAPATHRAN — a systems architect, founder, and software engineer."
               </p>
               <p>
                 I got hooked on technology early on by tinkering with hardware, computers, and games. Over time, that curiosity naturally shifted from asking <span className="text-white italic">"How does this work?"</span> to 

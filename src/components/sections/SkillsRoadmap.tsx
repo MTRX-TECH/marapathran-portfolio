@@ -90,8 +90,8 @@ export default function SkillsRoadmap() {
             <div className="absolute left-0 top-0 w-px h-full bg-gradient-to-b from-white/10 via-white/5 to-transparent" />
             <div className="pl-8">
               <h3 className="text-xl font-bold text-white/50 tracking-widest uppercase mb-8 flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-white/10" />
-                Next Frontier
+                <span className="w-2 h-2 rounded-full bg-white/20" />
+                Exploring
               </h3>
               <div className="flex flex-col gap-6">
                 {skillCategories.next.map((skill) => (
