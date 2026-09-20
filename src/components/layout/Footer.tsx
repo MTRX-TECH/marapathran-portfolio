@@ -60,7 +60,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/marapathran_dev.x" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-sm tracking-wider text-white/70 hover:text-white transition-colors interactive">
+                <a href="https://instagram.com/founder.apex" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-sm tracking-wider text-white/70 hover:text-white transition-colors interactive">
                   <InstagramIcon /> Instagram (Personal)
                 </a>
               </li>
@@ -70,8 +70,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:mtrx.tch512@gmail.com" className="flex items-center gap-3 text-sm tracking-wider text-white/70 hover:text-white transition-colors interactive mt-4 pt-4 border-t border-white/10">
-                  <Mail size={16} /> mtrx.tch512@gmail.com
+                <a href="mailto:marapathranv@gmail.com" className="flex items-center gap-3 text-sm tracking-wider text-white/70 hover:text-white transition-colors interactive mt-4 pt-4 border-t border-white/10">
+                  <Mail size={16} /> marapathranv@gmail.com
                 </a>
               </li>
             </ul>

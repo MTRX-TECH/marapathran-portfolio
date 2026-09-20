@@ -37,7 +37,7 @@ export default function MtrxTech() {
             transition={{ delay: 0.4 }}
             className="text-white/60 max-w-2xl mx-auto font-light text-lg"
           >
-            MTRX TECH is the technology company I'm building to explore what comes next. A vision for an interconnected ecosystem.
+            MTRX TECH is the venture I founded to build modern, independent technology from the ground up — engineering software platforms and hardware integrations that solve real infrastructure challenges.
           </motion.p>
         </div>
 

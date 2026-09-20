@@ -80,7 +80,7 @@ export default function Contact() {
               transition={{ delay: 0.2 }}
               className="text-lg md:text-xl text-white/70 font-light max-w-lg mb-12"
             >
-              Whether it's technology, a product idea, a collaboration or simply a conversation about what's next — I'm always interested in building.
+              Got a project in mind, want to collaborate, or just talk tech? Drop me a line — I'm always open to discussing new ideas and building real software.
             </motion.p>
             
             <motion.div
@@ -90,7 +90,7 @@ export default function Contact() {
               transition={{ delay: 0.4 }}
               className="flex flex-wrap gap-4"
             >
-              <a href="mailto:mtrx.tch512@gmail.com">
+              <a href="mailto:marapathranv@gmail.com">
                 <MagneticButton className="px-6 py-3 text-xs bg-white text-black hover:bg-white/90 border-transparent flex items-center gap-2">
                   <Mail size={16} /> EMAIL ME
                 </MagneticButton>
@@ -105,7 +105,7 @@ export default function Contact() {
                   <GithubIcon /> GITHUB
                 </MagneticButton>
               </a>
-              <a href="https://instagram.com/marapathran_dev.x" target="_blank" rel="noreferrer">
+              <a href="https://instagram.com/founder.apex" target="_blank" rel="noreferrer">
                 <MagneticButton className="px-6 py-3 text-xs border-white/20 hover:border-white flex items-center gap-2">
                   <InstagramIcon /> INSTAGRAM
                 </MagneticButton>
@@ -171,12 +171,12 @@ export default function Contact() {
                 }`}
               >
                 {isSubmitting 
-                  ? "TRANSMITTING..." 
+                  ? "SENDING MESSAGE..." 
                   : submitStatus === "success" 
-                  ? "MESSAGE DELIVERED" 
+                  ? "MESSAGE SENT — I'LL BE IN TOUCH" 
                   : submitStatus === "error"
-                  ? "TRANSMISSION FAILED - TRY AGAIN"
-                  : "START A CONVERSATION"}
+                  ? "FAILED TO SEND — PLEASE TRY AGAIN"
+                  : "SEND MESSAGE"}
               </button>
             </form>
           </motion.div>

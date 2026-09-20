@@ -38,17 +38,15 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <p className="text-white font-medium">
-                "Hi, I'm MARAPATHRAN — a Computer Science student, entrepreneur and builder focused on creating technology from the ground up."
+                "Hey, I'm MARAPATHRAN — a Computer Science student, founder, and systems builder."
               </p>
               <p>
-                My curiosity started during childhood through computers, laptops, PCs and gaming. 
-                That curiosity gradually evolved from simply asking <span className="text-white italic">"How does this work?"</span> into 
-                <span className="text-white italic"> "How can I build this myself?"</span> and eventually into 
-                <span className="text-[var(--color-brand-gold)] font-medium"> "I want to build my own technology ecosystem."</span>
+                I got hooked on technology early on by tinkering with hardware, computers, and games. Over time, that curiosity naturally shifted from asking <span className="text-white italic">"How does this work?"</span> to 
+                <span className="text-white italic"> "How can I build this myself?"</span> — and ultimately, to 
+                <span className="text-[var(--color-brand-gold)] font-medium"> "I want to build my own technology company and software ecosystem."</span>
               </p>
               <p>
-                I do not want my identity to be limited to being a conventional software developer. 
-                My long-term vision is to create independent products, companies, and systems rather than simply work on existing solutions.
+                I didn't want to just be someone who writes routine code for existing tools. I started MTRX TECH to design original products from scratch, master systems from the hardware layer up to full-stack cloud, and build software that actually makes a difference.
               </p>
             </motion.div>
 

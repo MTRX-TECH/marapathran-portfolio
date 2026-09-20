@@ -5,6 +5,8 @@ import { projects } from "@/data/projects";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import Image from "next/image";
 
+import Link from "next/link";
+
 export default function Projects() {
   return (
     <section id="projects" className="relative py-24 bg-black overflow-hidden font-sans">
@@ -36,20 +38,24 @@ export default function Projects() {
                 className={`flex flex-col ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 lg:gap-16 items-center group`}
               >
                 {/* Visual Container */}
-                <div className="w-full lg:w-1/2 h-[40vh] md:h-[50vh] relative overflow-hidden bg-[#050505] border border-white/10 group-hover:border-white/30 transition-colors duration-500">
+                <Link 
+                  href={`/projects/${project.id}`}
+                  className="w-full lg:w-1/2 h-[40vh] md:h-[50vh] relative overflow-hidden bg-[#050505] border border-white/10 group-hover:border-white/30 transition-colors duration-500 block cursor-pointer"
+                >
                   <Image 
-                    src="/images/founder.png" // Placeholder, in real world this is project image
+                    src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover grayscale contrast-125 brightness-75 group-hover:scale-105 transition-transform duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)]"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover object-top brightness-90 group-hover:brightness-100 group-hover:scale-105 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                   />
-                  <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-500" />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
                   
                   {/* Subtle Number */}
-                  <div className="absolute top-4 left-4 text-[var(--color-brand-silver)]/30 font-oswald text-4xl font-black z-10">
+                  <div className="absolute top-4 left-4 text-white/50 font-oswald text-4xl font-black z-10 drop-shadow-md">
                     {number}
                   </div>
-                </div>
+                </Link>
 
                 {/* Content Container */}
                 <div className="w-full lg:w-1/2 flex flex-col items-start">
@@ -63,9 +69,11 @@ export default function Projects() {
                     </span>
                   </div>
 
-                  <h3 className="text-3xl md:text-5xl font-black text-white tracking-tighter uppercase mb-6">
-                    {project.title}
-                  </h3>
+                  <Link href={`/projects/${project.id}`}>
+                    <h3 className="text-3xl md:text-5xl font-black text-white tracking-tighter uppercase mb-6 hover:text-[var(--color-brand-gold)] transition-colors">
+                      {project.title}
+                    </h3>
+                  </Link>
                   
                   <p className="text-base text-[var(--color-brand-silver)] font-light leading-relaxed mb-8 max-w-xl">
                     {project.description}
@@ -89,10 +97,16 @@ export default function Projects() {
 
                   {/* Actions */}
                   <div className="flex items-center gap-6">
-                    <a href={project.github || "#"} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] uppercase text-white hover:text-[var(--color-brand-red)] transition-colors group/link">
+                    <Link href={`/projects/${project.id}`} className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] uppercase text-white hover:text-[var(--color-brand-gold)] transition-colors group/link">
                       View Source
                       <ArrowRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
-                    </a>
+                    </Link>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] uppercase text-white/60 hover:text-white transition-colors">
+                        GitHub
+                        <ExternalLink size={12} />
+                      </a>
+                    )}
                   </div>
 
                 </div>

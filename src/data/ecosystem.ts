@@ -2,37 +2,37 @@ export const ecosystemNodes = [
   {
     id: "os",
     title: "MTRX OS",
-    description: "An exploration toward building an independent operating system ecosystem.",
+    description: "Building specialized operating platforms tailored for specific environments like colleges, transit, and enterprise facilities.",
     status: "VISION",
   },
   {
     id: "apps",
     title: "MTRX APPS",
-    description: "Native applications designed for high performance and seamless integration.",
+    description: "Fast, purposeful web and desktop applications designed with clean interfaces and zero unnecessary bloat.",
     status: "VISION",
   },
   {
     id: "ai",
     title: "MTRX AI",
-    description: "Intelligent systems designed to augment products and real-world workflows.",
+    description: "Practical AI assistants and telemetry agents embedded right where users work, helping automate daily operations.",
     status: "VISION",
   },
   {
     id: "cloud",
     title: "MTRX CLOUD",
-    description: "Infrastructure for scalable MTRX products and data synchronization.",
+    description: "Distributed backends and real-time WebSocket pipelines built for low latency, high uptime, and offline resilience.",
     status: "VISION",
   },
   {
     id: "hardware",
     title: "MTRX HARDWARE",
-    description: "The physical layer. Exploring devices that bridge digital systems with reality.",
+    description: "Custom sensor setups, ESP32 microcontrollers, and edge devices connecting physical hardware to our software.",
     status: "LONG-TERM VISION",
   },
   {
     id: "platforms",
     title: "MTRX PLATFORMS",
-    description: "Foundational networks enabling developers and users to build upon the MTRX ecosystem.",
+    description: "Clean APIs, shared authentication, and modular building blocks that connect all our products together.",
     status: "VISION",
   },
 ];

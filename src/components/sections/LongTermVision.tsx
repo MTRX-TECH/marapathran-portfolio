@@ -68,8 +68,8 @@ export default function LongTermVision() {
             transition={{ delay: 0.8 }}
             className="mt-16 text-center"
           >
-            <p className="inline-block px-4 py-2 border border-white/10 text-[10px] font-bold tracking-[0.2em] text-[var(--color-brand-red-bright)] uppercase bg-[var(--color-brand-red)]/10">
-              Disclaimer: Future sectors are part of a long-term vision, not current operations.
+            <p className="inline-block px-4 py-2 border border-white/10 text-[10px] font-bold tracking-[0.2em] text-[var(--color-brand-gold)] uppercase bg-white/5">
+              Roadmap Note: These represent future sectors I plan to explore as MTRX TECH expands over time.
             </p>
           </motion.div>
         </div>

@@ -15,8 +15,8 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   title: "MARAPATHRAN V — Founder & CEO of MTRX TECH",
-  description: "MARAPATHRAN V is a technology entrepreneur, Computer Science student and Founder & CEO of MTRX TECH, building products and exploring the future of technology.",
-  keywords: "Marapathran V, MTRX TECH, technology entrepreneur, computer science, founder, software, technology products, CampusOS, Talent Tracker, Bus Tracker, ADRI",
+  description: "Computer Science student, systems builder, and Founder & CEO of MTRX TECH. Building real-world software platforms, campus operating systems, and developer tools.",
+  keywords: "Marapathran V, MTRX TECH, systems builder, computer science, founder, software engineering, CampusOS, TalentTrack, Bus Tracker, CanteenPay, ADRI",
 };
 
 export default function RootLayout({
