@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Oswald } from "next/font/google";
 import "./globals.css";
 import LenisProvider from "@/components/layout/LenisProvider";
+import CustomCursor from "@/components/ui/CustomCursor";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${oswald.variable} antialiased dark`}>
       <body className={`${inter.variable} font-sans antialiased bg-black text-white selection:bg-[var(--color-brand-gold)] selection:text-black`}>
+        <CustomCursor />
         <LenisProvider>
           {children}
         </LenisProvider>
